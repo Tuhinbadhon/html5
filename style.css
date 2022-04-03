@@ -10,6 +10,7 @@
 
 td,
 th {
+    text-align: center;
     font-size: 20px;
     border: 3px solid black;
     box-shadow: 0px 2px 3px 4px rgba(128, 128, 128, 0.637);
@@ -27,4 +28,19 @@ table {
     border-collapse: collapse;
 
 
+}
+
+thead {
+
+    color: rgb(255, 0, 0);
+}
+
+tbody {
+    background-color: rgba(0, 0, 0, 0.547);
+    color: white;
+
+}
+
+tfoot {
+    background-color: rgba(255, 166, 0, 0.488);
 }
